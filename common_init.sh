@@ -19,7 +19,7 @@ mk_gt(){
 	make install
 }
 
-mkvm(){
+mkv(){
 	if [ -z $1 ]
 	then
 		curl -L https://github.com/vim/vim/archive/refs/tags/v9.0.1506.zip -o vim.zip
